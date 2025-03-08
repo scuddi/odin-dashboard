@@ -62,6 +62,11 @@
     grid-row: 1 / 2;
 }
 
+.header img {
+    height: 35px;
+    width: 35px;
+}
+
 .bottom-header {
     grid-row: 2 / 3;
 }
