@@ -16,9 +16,10 @@
     background-color: rgb(0, 190, 253);
     color: white;
     font-weight: 700;
+    padding-left: 2em;
+    padding-top: 1em;
 
     display: grid;
-    align-items: center;
 }
 
 .sidebar img {
@@ -29,12 +30,26 @@
 
 .sidebar-header {
     font-size: 40px;
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 10px;
+    align-items: center;
+
+    margin-bottom: 1em;
 }
 
 .sidebar-element {
     font-size: 20px;
-    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 10px; 
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#communities {
+    margin-top: 4em;
 }
 
 .header {
