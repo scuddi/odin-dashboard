@@ -7,7 +7,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 5fr auto;
 }
 
 .sidebar {
@@ -80,4 +80,9 @@
 .ann-tren {
     grid-column: 2 / 3;
     grid: 1 / 3;
+}
+
+.footer {
+    grid-row: 3 / 4;
+    place-self: center;
 }
