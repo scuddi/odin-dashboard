@@ -20,7 +20,7 @@ body {
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-color: rgb(0, 190, 253);
+    background-color: rgb(27, 114, 143);
     color: white;
     font-weight: 700;
     padding-left: 2em;
@@ -134,6 +134,29 @@ body {
     font-size: 20px;
     margin-left: 1rem;
     align-self: center;
+}
+
+.bottom-right {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    gap: 2em;
+    margin-right: 7em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom-right button {
+    min-width: 8em;
+    height: 3em;
+    background-color: rgb(27, 114, 143);
+    border: none;
+    border-radius: 25px;
+
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+
 }
 
 /* Main section */
