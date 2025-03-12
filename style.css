@@ -4,6 +4,10 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -54,13 +58,11 @@
 }
 
 .header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-}
-
-.top-header {
-    grid-row: 1 / 2;
 }
 
 .header img {
@@ -68,11 +70,9 @@
     width: 35px;
 }
 
-.bottom-header {
-    grid-row: 2 / 3;
-}
-
 .main-section {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
