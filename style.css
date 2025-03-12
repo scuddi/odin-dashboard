@@ -37,6 +37,7 @@ body {
 
 .sidebar-header {
     font-size: 40px;
+
     display: grid;
     grid-template-columns: 50px auto;
     gap: 10px;
@@ -64,9 +65,12 @@ body {
 .header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    margin: 1em 2em;
+
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
 }
 
 .header img {
@@ -74,7 +78,28 @@ body {
     width: 35px;
 }
 
+.top-left {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    gap: 1em;
+    padding: 0px 1em;
+}
 
+.top-left input {
+    background-color: lightgray;
+    border-radius: 25px;
+    border: none;
+    font-size: 25px;
+    padding: 9px;
+}
+
+.top-right {
+    display: grid;
+    grid-template-columns: 40px 40px auto;
+    align-items: center;
+    
+}
 
 /* Main section */
 
