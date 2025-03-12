@@ -97,8 +97,20 @@ body {
 .top-right {
     display: grid;
     grid-template-columns: 40px 40px auto;
+
     align-items: center;
-    
+    justify-content: center;
+    gap: 2em;
+}
+
+.top-right span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bottom-left {
+    display: grid;
+    grid-template-columns: 40px auto;
 }
 
 /* Main section */
