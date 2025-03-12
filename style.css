@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr auto;
+    height: 100vh;
 }
 
 .sidebar {
@@ -75,6 +76,8 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    background-color: lightgrey;
 }
 
 .projects {
