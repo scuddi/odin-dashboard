@@ -30,8 +30,8 @@ body {
 }
 
 .sidebar img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .sidebar-element {
-    font-size: 20px;
+    font-size: 18px;
 
     display: grid;
     grid-template-columns: 50px auto;
