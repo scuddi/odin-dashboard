@@ -6,7 +6,7 @@ As this chapter was about CSS-Grid, I've only used grid and didn't combine it wi
 
 The given template from the project can be seen here: [Click here](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
 
-## Check out my live demo:
+## Check out my live demo
 
 [Click here](https://scuddi.github.io/odin-dashboard/)
 
