@@ -100,8 +100,7 @@ body {
     grid-template-columns: 40px 40px auto;
 
     align-items: center;
-    justify-content: center;
-    gap: 2em;
+    justify-content: end;
 }
 
 .top-right span {
@@ -114,6 +113,7 @@ body {
     grid-template-columns: 70px auto;
     grid-template-rows: auto auto;
     align-items: center;
+    gap: 3em;
 }
 
 .bottom-left img {
@@ -142,7 +142,6 @@ body {
     grid-template-columns: auto auto auto;
 
     gap: 2em;
-    margin-right: 7em;
     align-items: center;
     justify-content: space-evenly;
 }
