@@ -101,6 +101,7 @@ body {
 
     align-items: center;
     justify-content: end;
+    column-gap: 1em;
 }
 
 .top-right span {
@@ -113,7 +114,6 @@ body {
     grid-template-columns: 70px auto;
     grid-template-rows: auto auto;
     align-items: center;
-    gap: 3em;
 }
 
 .bottom-left img {
@@ -143,7 +143,8 @@ body {
 
     gap: 2em;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: end;
+    column-gap: 2em;
 }
 
 .bottom-right button {
