@@ -287,9 +287,12 @@ body {
 }
 
 .trending-user {
-
+    font-weight: 700;
+    align-self: center;
 }
 
 .trending-status {
-    
+    color: grey;
+    font-size: 14px;
+    align-self: center;
 }
