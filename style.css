@@ -30,8 +30,8 @@ body {
 }
 
 .sidebar img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .sidebar-element {
-    font-size: 20px;
+    font-size: 18px;
 
     display: grid;
     grid-template-columns: 50px auto;
@@ -156,10 +156,11 @@ body {
     color: white;
     font-weight: 700;
     font-size: 16px;
-
 }
 
 /* Main section */
+
+/*Project-Cards*/
 
 .main-section {
     grid-column: 2 / 3;
@@ -173,10 +174,125 @@ body {
 
 .projects {
     grid-column: 1 / 2;
+    grid-rows: 1 / 3;
+
+    gap: 5px;
+    padding: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, min(240px));
+}
+
+.projects {
+    grid-column: 1 / 2;
     grid-row: 1 / 3;
 }
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    border-left: 8px solid #e3b030;
+    padding-left: 15px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+}
+
+.card-hl {
+    font-weight: 700;
+    align-self: end;
+    margin-bottom: 7px;
+}
+
+.card-icons {
+    align-self: end;
+    justify-self: end;
+    padding: 25px;
+}
+
+.card-icons img {
+    height: 30px;
+    width: 30px;
+    margin-left: 2rem;
+}
+
+/* Announcements and trends */
 
 .ann-tren {
     grid-column: 2 / 3;
     grid: 1 / 3;
+
+    display: grid;
+    align-items: stretch;
+
+    padding: 5px;
+}
+
+.announcements {
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 2em;
+    gap: 15px;
+}
+
+.ann-section {
+    font-size: 14px;
+
+}
+
+.section-hl {
+    font-weight: 700;
+}
+
+#first-ann {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 12px;
+}
+
+#second-ann {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 12px;
+}
+
+/* Trending */
+
+.trending {
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 2em;
+    gap: 15px;
+}
+
+.trending-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trending-section img{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 50px;
+    height: 50px;
+}
+
+.trending-user {
+    font-weight: 700;
+    align-self: center;
+}
+
+.trending-status {
+    color: grey;
+    font-size: 14px;
+    align-self: center;
 }
